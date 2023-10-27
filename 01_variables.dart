@@ -6,6 +6,7 @@ void main() {
   final int healthPoint = 3333;
   final bool isAlive = true;
   final List<String> abilities = ['Coding', 'Sleeping'];
+  final projects = <String>['DevDocky.Tech', 'POS Software'];
 
   print("""
     $constvar
@@ -13,6 +14,7 @@ void main() {
     $healthPoint
     $isAlive
     $abilities
+    $projects
   """);// multiline String """ string """
 
 
