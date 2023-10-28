@@ -6,6 +6,9 @@ void main(List<String> args) {
   print(plusNumbers(3));
 
   print(plusArrowFunction(3 , 5));
+
+
+  print(greetPerson(name: 'Felipe', message: 'Hi,'));
 }
 
 //* arrow functions 
@@ -22,3 +25,7 @@ int plusNumbers (int a, [int? b] /* parametro no obligatorio */) {
 //int plusNumbers (int a, [int b = 0]) {
 //  return (a + b);
 //}
+// parametros por nombre y requeridos
+String greetPerson ({required String name, String message = 'Hola,' }) {
+  return '$message $name';
+}
