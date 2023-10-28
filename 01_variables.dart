@@ -33,4 +33,12 @@ void main() {
 
   int? nullable = i ?? 66;
   print(nullable);
+
+  // Dynamic type
+  dynamic dynamicVariable = 20;
+  dynamicVariable = true;
+  dynamicVariable = 'Hello Dart :)';
+
+  print(dynamicVariable);
+
 }
